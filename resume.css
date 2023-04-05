@@ -1,0 +1,236 @@
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+
+}
+
+body{
+background: lightblue;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+.container{
+position: relative;
+width: 100%;
+max-width: 800px;
+min-height: 1200px;
+margin: 50px;
+background: #fff;
+display: grid;
+grid-template-columns: 1fr 2fr;
+box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+/*Here stars container left*/
+.container .left
+{
+position: relative;
+background: #003147;
+}
+
+/*Here Image box*/
+ .imgBx{
+position: relative;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+overflow: hidden;
+margin-left: 25px;
+margin-top: 20px;
+}
+
+/*Here image inside the box*/
+.imgBx img
+{
+position: absolute;
+top: 0;
+Left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+/*Here starts Contact*/
+.contact
+{
+padding-top: 40px;
+padding-left: 25px;
+}
+
+.title
+{
+color:#fff;
+text-transform: uppercase;
+font-weight: 600;
+Letter-spacing: 1px;
+margin-bottom: 7px;
+}
+
+.contact ul{
+    position: relative;
+    margin-top:15px;
+    font-size: 15px;
+}
+
+.contact ul li{  
+   position: relative;
+   list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li span{
+    color: #fff;
+}
+.contact ul li .heading{
+   color: #fff;
+   font-weight: 600;
+}
+
+/*Here starts Education*/
+.education{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.education ul  {
+    position: relative;
+    margin-top:15px;
+    font-size: 15px;
+}
+
+.education ul li{
+    position: relative;
+   list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.education ul li span{
+    color: #fff;
+}
+
+.education ul li .year,.degree{
+    color: #fff;
+    font-weight: 600;
+}
+
+.education ul li .university{
+    font-weight: 100;
+}
+
+/*Here starts Expertise*/
+.expertise{
+    position: relative;
+    margin-top:15px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.expertise ul{
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.expertise ul li{
+    position: relative;
+   color:#fff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/*Here starts language*/
+.language{
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.language ul{
+    margin-left: 15px;
+    font-size: 15px;
+}
+.language ul li{
+    position: relative;
+   color:#fff;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+/*Here starts right container*/
+.container .right
+{
+position: relative;
+background:#fff;
+padding: 40px;
+}
+
+.right .profileText
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255,255,255,0.2); 
+}
+
+.right .ProfileText h2
+{
+color:black;
+font-size:1.9em;
+margin-top: 20px;
+text-transform: uppercase;
+
+font-weight: 600;
+Line-height: 1.4em;
+}
+ .right .ProfileText h3
+{
+font-size: 1.5em;
+font-weight: 400;
+}
+.right .ProfileText .aboutme{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/*Here starts experience*/
+.experience{
+    margin-top: 20px;
+}
+.experience ul{
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.experience ul li .year,.position{
+    font-weight: 700;
+}
+.experience ul li .aboutcompany{
+   font-size: 15px;
+   text-align: justify;
+   
+}
+
+/*Here starts Interest*/
+.interests{
+    margin-top: 20px;
+}
+.interests ul{
+    position: relative;
+}
+.interests ul li{
+    position: relative;
+    list-style:none;
+    margin:15px 0;
+    cursor: pointer;
+}
+.interests ul li .hobby_icon{
+    display: inline-block;
+    height: 30px;
+
+}
