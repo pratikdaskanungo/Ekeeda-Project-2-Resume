@@ -222,15 +222,8 @@ font-weight: 400;
 }
 .interests ul{
     position: relative;
+    
 }
-.interests ul li{
-    position: relative;
-    list-style:none;
-    margin:15px 0;
-    cursor: pointer;
-}
-.interests ul li .hobby_icon{
-    display: inline-block;
-    height: 30px;
 
-}
+
+
